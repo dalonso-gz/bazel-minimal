@@ -1,0 +1,6 @@
+build --subcommands=pretty_print
+
+common:dan --disk_cache=cache/disk
+common:dan --repository_cache=cache/repo
+
+try-import user.bazelrc
