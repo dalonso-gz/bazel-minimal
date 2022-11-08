@@ -2,4 +2,4 @@ steps:
   - label: "bazel-minimal example"
     command: "bazel run hello"
     agents:
-      queue: "dania"
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
