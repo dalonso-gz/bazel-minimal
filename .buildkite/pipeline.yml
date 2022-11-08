@@ -1,0 +1,5 @@
+steps:
+  - label: "bazel-minimal example"
+    command: "bazel run hello"
+    agents:
+      queue: "dania"
